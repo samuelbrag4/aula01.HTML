@@ -1,0 +1,14 @@
+/* Reset CSS */
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lemonchiffon;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+}
