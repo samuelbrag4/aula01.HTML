@@ -51,7 +51,7 @@ header {
 main {
   background-color: rgb(73, 80, 86);
   border-radius: 6px;
-  height: 100%;
+  height: 50%;
   width: 50%;
   margin-left: 100px;
 }
@@ -60,7 +60,7 @@ aside {
   background-color: chartreuse;
   border-radius: 6px;
   width: 50%;
-  height: 100%;
+  height: 50%;
   margin-right: 100px;
 }
 
