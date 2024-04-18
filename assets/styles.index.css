@@ -16,6 +16,7 @@
 body {
     font-family: "Jersey 20";
     color: black;
+    padding: 10px;
 }
 
 h1 {
@@ -30,8 +31,8 @@ p {
 
 header {
     background-color: grey;
-    margin: 10px;
     border-radius: 6px;
+    margin: 10px 0;
     height: 75px;
     display: flex;
     flex-direction: column;
@@ -42,9 +43,21 @@ header {
 
 #principal {
     display: flex;
-    height: 200px;
+    height: 800px;
     width: 100%;
-    background-color: rgb(255, 255, 255);
-    margin: 0 10px;
     border-radius: 6px;
+    justify-content: space-between;
+
+main {
+    background-color: greenyellow;
+    border-radius: 6px;
+    height: 100%;
+    width: 74%;
+}
+
+aside {
+    background-color: goldenrod;
+    border-radius: 6px;
+    width: 25%;
+    height: 100%;
 }
