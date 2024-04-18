@@ -1,14 +1,50 @@
 /* Reset CSS */
-*  {
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10+Charted&family=Jersey+20&display=swap');
+
+.jersey-20-regular {
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    background-color: lemonchiffon;
+    font-family: "Jersey 20";
+    color: black;
 }
 
-h2 {
-    color: rgb(0, 0, 0);
+h1 {
+    text-align: center;
+    color: rgb(0, 255, 17);
+}
+
+p {
+    text-align: center;
+    color: gold;
+}
+
+header {
+    background-color: grey;
+    margin: 10px;
+    border-radius: 6px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* vertical */
+    align-items: center; /* horizontal */
+    
+}
+
+#principal {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: 0 10px;
+    border-radius: 6px;
 }
